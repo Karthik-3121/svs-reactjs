@@ -1,0 +1,43 @@
+.navbar .nav-item .nav-link {
+  color: #444;
+  font-size: 0.89rem;
+}
+.navbar .nav-item .nav-link i {
+  font-size: 1.2rem;
+}
+.header-panel {
+  border-bottom-style: solid;
+  border-bottom-width: 0.66667px;
+  border-bottom-color: #e6e6e6;
+}
+
+.footer-panel  {
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-panel  .footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  row-gap: 8px;
+  column-gap: 14px;
+  padding-top: 30px;
+  width: 100%;
+  list-style: none none;
+}
+
+.footer-panel .footer-links a {
+  color: #6593DC;
+}
+
+.footer-panel .footer-links a span {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
